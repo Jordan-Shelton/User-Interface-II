@@ -34,7 +34,7 @@ caption, th, td {
 
 
 *{
-    border:2px solid grey;
+    /* border:2px solid grey; */
     box-sizing:border-box;
     max-width:100%;
     color:black;
@@ -51,4 +51,86 @@ body{
     line-height:1.5;
     font-family: 'Indie Flower', cursive;
     background-color:#fffff0;
+}
+
+header{
+    display:flex;
+    background-color:slategray;
+}
+
+header h1{
+    font-size:5rem;
+    margin:0 2%;
+}
+
+header nav{
+    margin-left:50%;
+    align-items:center;
+    display:flex;
+}
+
+header a{
+    text-decoration:none;
+    padding:0 5%;
+    border:1px solid black;
+    background-color:slateblue;
+}
+
+.top{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.top .innerTop{
+    align-content:center;
+    padding:10% 20%;
+    display:flex;
+    flex-flow:column;
+}
+
+.top .innerTop, h2{
+    font-size:8rem;
+}
+
+.innerTop button{
+    font-size:3rem;
+}
+
+.lower{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+
+.lower .project{
+    max-width:30%;
+    padding:1%;
+    margin:2% 2%;
+    border:1px solid black;
+}
+
+.project .pic, .p{
+    font-size:4rem;
+}
+
+.project .pName{
+    font-size:2rem;
+    text-align:center;
+}
+
+footer{
+    display:flex;
+    background-color:slategray;
+    justify-content:center;
+    padding: 2% 0;
+    margin-top:2%;
+}
+
+footer a{
+    background-color:slateblue;
+    text-decoration:none;
+    border:1px solid black;
+    padding:0 3%;
+    font-size:2rem;
 }
