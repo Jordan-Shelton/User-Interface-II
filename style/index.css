@@ -53,6 +53,8 @@ body{
     background-color:#fffff0;
 }
 
+/* Header styles */
+
 header{
     display:flex;
     background-color:slategray;
@@ -76,6 +78,8 @@ header a{
     background-color:slateblue;
 }
 
+/* Upper mid section of page */
+
 .top{
     display:flex;
     align-items:center;
@@ -96,6 +100,8 @@ header a{
 .innerTop button{
     font-size:3rem;
 }
+
+/* Lower mid section of page */
 
 .lower{
     display:flex;
@@ -119,6 +125,8 @@ header a{
     text-align:center;
 }
 
+/* footer styles */
+
 footer{
     display:flex;
     background-color:slategray;
@@ -134,3 +142,6 @@ footer a{
     padding:0 3%;
     font-size:2rem;
 }
+
+/* resizing of page */
+
